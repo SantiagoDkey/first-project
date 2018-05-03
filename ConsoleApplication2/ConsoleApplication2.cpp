@@ -12,7 +12,7 @@ int main(int argc, char* argv[])
 {
 	srand(time(NULL));
 	setlocale(LC_ALL, "rus");
-	cout << "¬ведите размер массива: ";
+	cout << "¬ведите размер массива : ";
 	int size_array; // длинна массива
 	cin >> size_array;
 
@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
 	}
 	cout << "\n\n";
 
-	choicesSort(sorted_array, size_array); // вызов функции сортировки выбором
+	choicesSort(sorted_array, size_array); 
 
 	for (int counter = 0; counter < size_array; counter++)
 	{
